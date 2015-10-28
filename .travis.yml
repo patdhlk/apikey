@@ -1,0 +1,12 @@
+language: go
+
+go:
+  - 1.3
+  - tip
+
+before_install:
+  - go get github.com/smartystreets/goconvey
+  - go get github.com/patdhlk/uuid
+  
+notifications:
+    email: false
